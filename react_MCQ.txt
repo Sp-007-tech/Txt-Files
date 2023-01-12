@@ -52,7 +52,7 @@
 
 👉 What props will be available to the following component?
 	➡️	< Car {...props} />
-	Ans : * available to updated ones. * available to children . 					*available for only static ones
+	Ans : * available to updated ones. * available to children .*available for only static ones
 
 
 👉 What is a common use case for ref ?
@@ -99,6 +99,3 @@
 👉 Why should you avoid copying the value of props into a components state ?
 
 	➡️Bcoz that would create two instances of the same state that could become out of sync.
-
-
-👉👉👉👉
