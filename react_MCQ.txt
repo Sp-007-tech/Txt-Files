@@ -1,0 +1,104 @@
+👉 What  is the correct command to create a new react project ?
+	➡️ npx create-react-app myReactApp.
+
+
+👉 What does myReactApp refer to in the following command ?
+	➡️ npx create-react-app myReactApp
+	Ans : The name you want to use for the new app.
+
+
+👉 what command is used to start the react local development server ?
+	➡️ npm start
+
+
+👉 what is the default local host port that a react development server uses?
+	➡️ 3000
+
+
+👉 To develop and run react code, Node.js is required ?
+	➡️true
+
+
+👉 What is the children prop?
+	➡️ A property that lets you nest componets in other componets.
+
+
+👉 Which keyword create a constant in javascript?
+	➡️ const
+
+
+👉 A copy of the 'real' DOM that is kept in memory is called what?
+	➡️ Virtual DOM.
+
+
+👉 React component names must begin with an uppercase letter.
+	➡️ True
+
+
+👉 Which operator can be used to conditionally render a react component ?
+	➡️ &&
+
+👉 When rendering a list using the javascript map() method, what is required for each element rendered ?
+	➡️ key
+
+
+👉 What tool does react use to compile JSX ?
+	➡️Bable
+
+
+👉 How can you optimize performanance for a function component that always renders the same way ?
+	➡️ Wrap it in the React.memo higher-order component.
+
+
+👉 What props will be available to the following component?
+	➡️	< Car {...props} />
+	Ans : * available to updated ones. * available to children . 					*available for only static ones
+
+
+👉 What is a common use case for ref ?
+	➡️To directly access a DOM node.
+
+
+👉 How can you combine the following arrays using the spread operator ?
+	➡️ const array1 = {1,2,3};
+	➡️ const array2 = {4,5,6};
+
+	Ans: const combined = [...array1, ...array2];
+
+
+👉 React can only render elements in the root document element.
+	➡️ False.
+
+
+👉 What is the correct syntax to import a component from React ?
+	➡️ import { Component } from 'react'
+
+
+👉 Find the bug in this code :
+	
+	➡️ function car ( {make, model} ) {
+
+		return <h1> {make} {model} </h1>; }
+	
+	Ans: The first letter of the function must be capitalized.
+
+
+👉  React seperate the user interface into components. How are components combined to create a user interface ?
+	➡️ By nesting components
+
+
+👉 Although react hooks generally replace class components, there are no plans to remove classes from React.
+
+	➡️ True.
+
+
+👉 Which of the following is NOT a rule for React Hooks ?
+	➡️Hooks can be called in class or function components.
+
+
+👉 Why should you avoid copying the value of props into a components state ?
+
+	➡️Bcoz that would create two instances of the same state that could become out of sync.
+
+
+👉👉👉👉
